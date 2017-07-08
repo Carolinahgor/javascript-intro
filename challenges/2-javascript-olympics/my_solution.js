@@ -5,10 +5,23 @@
 
 // 0. Objetos
 
+function Athlete (name, height, sport) {
+	this.name = name,
+	this.height = height,
+	this.sport = sport
+}
+
+var myBoyfriend = new Athlete("Juan", "1.70", "Tennis");
+var myself = new Athlete("Carolina", "1.70", "food");
 
 
 // 1. Añadir propiedades a objetos
 
+function addWinToAthlete (athletes) {
+	athletes.forEach(function(Athlete){
+		athlete.win = function() {
+			("{Athlete.name} won the {event}")};
+}
 
 
 // Function Declaration
